@@ -143,13 +143,13 @@ function calculator(number = 0) {
       }
       return result;
     },
-    // mul(...args) {
-    //   let result = number;
-    //   for (const arg of args) {
-    //     result *= arg;
-    //   }
-    //   return result;
-    // },
+    mul(...args) {
+      let result = number;
+      for (const arg of args) {
+        result *= arg;
+      }
+      return result;
+    },
   };
 }
 
